@@ -1,0 +1,84 @@
+body
+{   background-image: url(imagenes/fondo.jpg);  
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color: rgb(172, 203, 221);
+    margin: 0;  }
+
+#principal
+{   background-color: white;
+    font-family: Verdana;
+    font-size: 15px;
+    width: 1240px;
+    margin: auto;
+    border: 1px solid transparent;
+    padding: 0px 15px 10px 15px;  }
+
+#pie
+{   background-image: url(imagenes/footer.jpg);  
+    background-repeat: repeat-x;   
+    border: 1px solid transparent;  }
+
+/* Encabezados */
+#principal h1
+{   background-image: url(imagenes/viejo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px 75px;
+    font-family: 'Book Antiqua';
+    font-size: 50px;
+    line-height: 100px;
+    color: red;
+    margin: 1% 0 -3% 0;  }
+
+#principal h2
+{   background-color: rgb(172, 203, 221);
+    padding-left: 10px;
+    margin: 0; }
+
+#principal h3
+{   background-color: red;
+    color: gold;
+    padding-left: 10px; }
+
+/* Imagenes */
+#superior img
+{   position: fixed;
+    width: 100%;   }
+
+.historylist img
+{   height: 350px;
+    width: 700px;
+    border: 5px solid rgb(49, 26, 0);
+    margin: 1% 0 1% 18%;
+    padding: 1px;   }
+
+.bioimg
+{   margin: 1% 0 1% 16%;   }
+
+#pie img
+{   width: 30px;    
+    height: 30px;   
+    padding-left: 11%;
+    padding-top: 1%; }
+
+/* Videos */
+.v1 object
+{   margin: 1% 0 1% 15%;
+    width: 800px;
+    height: 400px;    }
+
+/* Parrafos */ 
+.p0
+{   font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+    padding-left: 22%;
+    margin: -1% 0 0 0; }
+
+.p1
+{   margin: -30% 1% 0% 21%;   }
+
+#pie p
+{   padding-left: 80%;
+    margin-top: -2%;  } 
